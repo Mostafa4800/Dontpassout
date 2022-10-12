@@ -8,7 +8,7 @@ export const Dash = styled.div`
     grid-gap:16px;
     justify-content: center;
     text-decoration: none;
-    padding-top: 50px;
+    padding-top: 30px;
     height: 100%;
     width: 100%;
     border: none;
@@ -74,5 +74,4 @@ height: 100%;
 width: 100%;
 border: none;
 outline: none;
-
 `

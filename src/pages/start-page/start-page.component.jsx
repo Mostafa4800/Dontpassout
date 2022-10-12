@@ -5,7 +5,7 @@ import { ButtonPos } from "./start-page.styles"
 function StartPage(){
     return(
         <div>
-            <Title titleText="Don't Pass Out." pText="Ny Spil! Helt extra ordinær."/>
+            <Title titleText="Don't Pass Out." pText="Spil imens du har det sjovt!"/>
             <ButtonPos>
                 <NextButton isActive="True" linkPath="/CharecterSelect" linkText="Start" />
             </ButtonPos>
