@@ -9,7 +9,6 @@ function CharecterSelectPage({charecterSelected, setCharecterSelected}){
     return(
         <div>
             <Title titleText="Don't Pass Out" pText="Vælg mindst 3 inden du går videre" />
-            
             <Dash>
                 {charecterSelected.map((charecter) =>
                     <CharecterCard 
@@ -23,13 +22,10 @@ function CharecterSelectPage({charecterSelected, setCharecterSelected}){
                     />
                 )}
             </Dash>
-           <ButtonPos>
+            <ButtonPos>
                 {selectedCount >=3 ? <NextButton isActive="True" linkText="Næste" linkPath="/UserCodePage"/> : <NextButton isActive="False" linkText="Næste" linkPath="/"/>}
             </ButtonPos>
-                
-            
         </div>
-        
     )
 };
 

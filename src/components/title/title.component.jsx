@@ -4,8 +4,8 @@ import { LogoImage, Container, ExtraText } from "./title.styles";
 function Title({pText}){
     return(
         <Container>
-            <div><LogoImage src={TitleLogo} alt="Don't Pass Out"/></div>
-            <div><ExtraText>{pText}</ExtraText></div>
+            <LogoImage src={TitleLogo} alt="Don't Pass Out"/>
+            <ExtraText>{pText}</ExtraText>
         </Container>
     )
 }

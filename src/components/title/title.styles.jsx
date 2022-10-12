@@ -11,16 +11,14 @@ export const LogoImage = styled.img`
     
     @media screen and (max-width:500px) {
         transition: all 0.5s ease;
-        width:400px;
+        width:380px;
         height:auto;
     }
-
     @media screen and (min-width:500px) and (max-width:750px) {
         transition: all 0.5s ease;
          width:520px;
         height:auto;
     }
-
     @media screen and (min-width: 750px){
         transition: all 0.5s ease;
         width:650px;
@@ -32,5 +30,5 @@ export const ExtraText = styled.p`
     color:#bbb9e5;
     font-family: 'Ubuntu', sans-serif;
     position:relative;
-    top:-15px;
+    top:-8px;
 `
