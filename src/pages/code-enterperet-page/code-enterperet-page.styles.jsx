@@ -78,54 +78,31 @@ export const PopUpBackGround = styled.div`
     transition: 0.5s;
     justify-content:center;
 `
-//faillure popup
+
 export const PopUpPos = styled.div`
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-text-decoration: none;
-height: 100%;
-width: 100%;
-
-@media screen and (max-width: 520px) {
-    transition: all 0.5s ease;
-    scale:80%;
-}
-@media screen and (min-width: 521px) {
-    transition: all 0.5s ease;
-    scale:100%; 
-}
+    position:absolute;
+    left:550px;
+    top:100px;
 `
-//u are correct popup
-export const PopUpPos2 = styled.div`
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-text-decoration: none;
-height: 100%;
-width: 100%;
 
+export const PopUpPos2 = styled.div`
+    position:absolute;
+    left:550px;
+    top:250px;
 `
 
 export const Text = styled.p`
     font-size:17px;
-    text-align: center;
+    position:absolute;
     color:#49aa7d;
+    top:5px;
+    left:110px;
 `
 export const Close = styled.span`
     font-size:40px;
-    text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-text-decoration: none;
-padding-top: 20px;
-height: 100%;
-width: 100%;
-border: none;
-outline: none;
+    position:absolute;
+    right:15px;
+    top:-5px;
 
     &:hover{
         color:#2d2f66;

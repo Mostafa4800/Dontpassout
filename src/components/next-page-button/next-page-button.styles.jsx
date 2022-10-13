@@ -8,13 +8,10 @@ export const LinkContainer = styled.nav`
     border-radius:10px;
     margin-bottom:80px;
     box-shadow: 0 0 50px #000;
-    @media screen and (min-width: 520px) {
-         &:hover{
+    &:hover{
         transition: all 0.5s ease;
         opacity:60%;
     }
-      }
-   
 `
 export const ActiveLink = styled(Link)`
     color: ${(props) => props.isActive === "True" ? "#fff " : "#b8b8dd"};
