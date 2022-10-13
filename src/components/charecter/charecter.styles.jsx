@@ -36,30 +36,22 @@ export const Card = styled.div`
     box-shadow: 0 0 50px #000;
     transform-style:preserve-3d;
     transition: all 1.2s ease;
-    @media screen and (min-width: 521px) {
-        &:hover, &:active, &:focus{
+    &:hover, &:active, &:focus{
         transform:rotateY(180deg)
     }
     &:hover ${Overlay}{
         transition: all 0.5s ease;
         opacity:0;
     }
-    }
-    
 `
 
 export const CardFront = styled.div`
     ${commonStyles}
-    @media screen and (max-width: 520px) {
-        transform:rotateY(180deg);
-    }
 `
 
 export const CardBack = styled.div`
     ${commonStyles}
-    @media screen and (min-width: 521px) {
-        transform:rotateY(180deg);
-    }
+    transform:rotateY(180deg);
 `
 
 export const CardImage = styled.img`
