@@ -51,11 +51,11 @@ export const ButtonPos = styled.div`
 `
 
 export const MinusButton = styled.button`
-    border-radius:100px;
-    height:30px;
-    width:30px;
-    text-align:center;
-    background-color:#151532;
-    color:white;
-    border:none;
+border-radius:100px;
+height:10px;
+width:25px;
+text-align:center;
+background-color:#000;
+color:#fff;
+border:none;
 `
