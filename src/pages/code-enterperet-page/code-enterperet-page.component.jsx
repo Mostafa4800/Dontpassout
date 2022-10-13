@@ -71,7 +71,7 @@ function UserCodePage({charecterSelected, setCharecterSelected, questionNum, set
                 setWrongAnswerPop(true)
             }
         } else if (questionNum === 8){
-            if(inputVal === "6014"){
+            if(inputVal === "1569"){
                 setRightAnswerPop(true)
                 setQuestionNum(questionNum + 1)
             } else{
