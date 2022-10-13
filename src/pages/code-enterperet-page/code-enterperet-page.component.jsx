@@ -24,6 +24,7 @@ function UserCodePage({charecterSelected, setCharecterSelected, questionNum, set
         } else if (questionNum === 1){
             if(inputVal === "1031"){
                 setRightAnswerPop(true)
+                setQuestionNum(questionNum + 1)
             } else{
                 setWrongAnswerPop(true)
             }
@@ -56,13 +57,20 @@ function UserCodePage({charecterSelected, setCharecterSelected, questionNum, set
                 setWrongAnswerPop(true)
             }
         } else if (questionNum === 6){
-            if(inputVal === "2020"){
+            if(inputVal === "6191"){
                 setRightAnswerPop(true)
                 setQuestionNum(questionNum + 1)
             } else{
                 setWrongAnswerPop(true)
             }
         } else if (questionNum === 7){
+            if(inputVal === "2020"){
+                setRightAnswerPop(true)
+                setQuestionNum(questionNum + 1)
+            } else{
+                setWrongAnswerPop(true)
+            }
+        } else if (questionNum === 8){
             if(inputVal === "6014"){
                 setRightAnswerPop(true)
                 setQuestionNum(questionNum + 1)
